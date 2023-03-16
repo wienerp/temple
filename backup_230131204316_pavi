@@ -1,0 +1,44 @@
+digraph G {
+    rankdir=TB;
+    fontname="sans-serif";
+    colorscheme="ylorrd8";
+    fillcolor="7";
+    fontcolor="6";
+    penwidth="0.1";
+    edge [comment="Wildcard edge", 
+          fontname="sans-serif", 
+          fontsize=10, 
+          colorscheme="purple", 
+          color=2, 
+          fontcolor=3];
+    node [fontname="serif", 
+          fontsize=15, 
+          fillcolor="1", 
+          colorscheme="blues4", 
+          color="2", 
+          fontcolor="4", 
+          style="filled"];
+    "numbers";
+    "10";
+    "20";
+    "30";
+    "40";
+    "50";
+    "25";
+    "60";
+    "70";
+    "78";
+    "80";
+    "95";
+    "numbers" -> "10";
+    "numbers" -> "50";
+    "10" -> "20";
+    "10" -> "25";
+    "25" -> "30";
+    "25" -> "40";
+    "50" -> "60";
+    "50" -> "70";
+    "70" -> "78";
+    "70" -> "80";
+    "80" -> "95";
+}
